@@ -15,7 +15,7 @@ function setup() {
 function draw() {
   let s = 90;
   let t = s*SQRT3;
-  let n = 7;
+  let n = 11;
   for (let i = -n; i <= n; i++) {
     for (let j = -n; j <= n; j++) {
       let y = (j*3/2)*s;
