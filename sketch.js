@@ -13,7 +13,7 @@ function setup() {
 }
 
 function draw() {
-  let s = 50;
+  let s = 90;
   let t = s*SQRT3;
   let n = 7;
   for (let i = -n; i <= n; i++) {
