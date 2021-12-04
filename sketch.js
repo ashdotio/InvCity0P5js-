@@ -4,10 +4,10 @@ let invert; // bool, determines which orientation the lines have
 let img;
 
 function setup() {
-  createCanvas(500*SQRT3, 760);
+  createCanvas(500*SQRT3, 500);
   img = createGraphics(width, height, WEBGL);
   noLoop();
-  img.strokeWeight(0.8);
+  img.strokeWeight(2);
   shuffle(colors, true);
   invert = random() < 1/3;
 }
