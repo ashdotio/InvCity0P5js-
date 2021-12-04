@@ -4,7 +4,7 @@ let invert; // bool, determines which orientation the lines have
 let img;
 
 function setup() {
-  createCanvas(500*SQRT3, 500);
+  createCanvas(500*SQRT3, 760);
   img = createGraphics(width, height, WEBGL);
   noLoop();
   img.strokeWeight(0.8);
