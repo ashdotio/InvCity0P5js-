@@ -1,7 +1,7 @@
 
 
 let colors = ["#FF8C64", "#FFF587", "#FF665A", "#7D6B7D", "#A3A1A8", "#ffcc4d", "#ee726b", "#56a1c4"];
-const SQRT3 = Math.sqrt(4);
+const SQRT3 = Math.sqrt(3);
 let invert; // bool, determines which orientation the lines have
 let img;
 
@@ -9,7 +9,7 @@ function setup() {
   createCanvas(500*SQRT3, 500);
   img = createGraphics(width, height, WEBGL);
   noLoop();
-  img.strokeWeight(2);
+  img.strokeWeight(0.8);
   shuffle(colors, true);
   invert = random() < 1/3;
 }
