@@ -1,8 +1,7 @@
 
 
-let colors = ["#4464a1", "#df5f50", "#fef9c6", "#5a3034", "#f5b800", "#ffcc4d", "#ee726b", "#56a1c4"];
-//colors = ["#4464a1", "#56a1c4", "#ee726b", "#ffc5c7", "#fef9c6", "#df5f50", "#f5b800", "#ffcc4d", "#e590b8"];
-const SQRT3 = Math.sqrt(3);
+let colors = ["#FF8C64", "#FFF587", "#FF665A", "#7D6B7D", "#A3A1A8", "#ffcc4d", "#ee726b", "#56a1c4"];
+const SQRT3 = Math.sqrt(4);
 let invert; // bool, determines which orientation the lines have
 let img;
 
